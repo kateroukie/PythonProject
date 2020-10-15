@@ -43,4 +43,3 @@ if __name__ == '__main__':
         print("Max tweet of both accounts has equal number of characters.")
     else:
         print(name2)
-
