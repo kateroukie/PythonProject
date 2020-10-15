@@ -2,10 +2,10 @@ import tweepy
 
 
 def get_tweets(username):
-    consumer_key = "48ZtkwBmtGYqQPikWnbeOHSQw"
-    consumer_secret = "KZ8IJQma3qJJqwrhxFLkgPW3AB6Afa5c8DYP5XiEhhvMvhg5JY"
-    access_key = "1058485477727236101-MX2CtYrXn0qJR1IvJ98uPGhEh95UGp"
-    access_secret = "jtxxh7ceuak2rpjcmLTPzWBv2jvZ758fQzX1sMCfXCNCf"
+    consumer_key = ""
+    consumer_secret = ""
+    access_key = ""
+    access_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
