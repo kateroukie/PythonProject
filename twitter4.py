@@ -13,7 +13,7 @@ def get_tweets(username):
 
     tweets = api.user_timeline(screen_name=username, include_rts=False, tweet_mode="extended")
     tmp = []
-    tweets_list = [tweet.full_text for tweet in tweets]  # CSV file created
+    tweets_list = [tweet.full_text for tweet in tweets]
     for j in tweets_list:
         tmp.append(j)
     new_list = list()
